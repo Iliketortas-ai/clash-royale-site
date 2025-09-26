@@ -1,0 +1,118 @@
+/* style.css */
+
+/* Reset and base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #222;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #575757;
+    color: yellow; /* hover effect */
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    margin: 15px;
+}
+
+/* Div styling */
+.div-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Span styling */
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Classes and ID selectors */
+.card {
+    background: #e8f5e9;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.banner {
+    background: #cce7ff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#special {
+    background: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 10px;
+    margin: 15px;
+}
+
+/* Responsive design with @media */
+@media (max-width: 600px) {
+    nav a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
